@@ -36,7 +36,6 @@ background-repeat: no-repeat;
 }
 
 body {
-  height: 100%;
   width: 100%;
   padding-top: 30px;
   color: #ffffff;
@@ -50,6 +49,10 @@ html {
 
 li {
     list-style-type: none;
+}
+
+div, li, span, ul, p {
+   box-sizing: border-box;
 }
 
 #title {
@@ -100,11 +103,12 @@ ul#skills li {
   overflow-y: hidden;
     margin-left: 40px;
     margin-right: 40px;
+        margin-top:100px;
+        padding-bottom: 20px;
 }
 div.outer {
     display:table;
     width:100%;
-    margin-top:100px;
 }
 div.inner {
     display:table-cell;
